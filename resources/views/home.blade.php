@@ -13,9 +13,9 @@
                 <div class=pr-5><strong>1399</strong> follower</div>
                 <div class=pr-5><strong>424</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">Riki</div>
-            <div class="">Not special, just normal person but little different. 🛫 some pic from my traveling</div>
-            <div> <a href="github.com/rikiafifuddin">github.com/rikiafifuddin</a></div>
+            <div class="pt-4 font-weight-bold">{{$user->profile->title ?? " "}}</div>
+            <div class="">{{$user->profile->description ?? " "}}</div>
+            <div> <a href="#">{{$user->profile->url ?? 'N/A'}}</a></div>
       </div>
   </div>
 
